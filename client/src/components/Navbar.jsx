@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-gray-900 text-white py-4">
       <div className="w-3/4 mx-auto flex justify-between items-center">
-        {/* Logo */}
+       
         <Link to="/" className="text-2xl font-bold tracking-wide">
           Gym Tracker
         </Link>
 
-        {/* Navigation Links */}
+        
         <div className="flex space-x-6">
           <Link className="btn-link flex items-center gap-1" to="/">
             <MdHome />
